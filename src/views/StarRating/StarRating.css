@@ -1,0 +1,5 @@
+.star-rating {
+    display: flex;
+    align-items: center;
+    gap: 4px; /* Adjust the gap between stars */
+  }

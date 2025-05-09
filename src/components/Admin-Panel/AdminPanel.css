@@ -1,0 +1,16 @@
+.card-grid-admin-panel {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px; 
+  }
+  .notification-indicator {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+ 

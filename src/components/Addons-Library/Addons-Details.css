@@ -1,0 +1,14 @@
+.card {
+  border: 1px solid rgb(216, 210, 210);
+  position: relative;
+  overflow: hidden;
+}
+
+.card:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  border: 1px solid #1b74e4;
+}
+
+.custom-title-class {
+  margin-right: 120px;
+}

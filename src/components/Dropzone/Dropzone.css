@@ -1,0 +1,17 @@
+.dropzone {
+  border: 2px dashed #1b74e4;
+  border-radius: 5px;
+  background: white;
+  padding: 25px;
+  text-align: center;
+  font-size: 18px;
+  color: #777;
+}
+
+.dropzone:hover {
+  background-color: #f8f9fa;
+}
+
+.dropzone input {
+  display: none;
+}

@@ -1,0 +1,66 @@
+/* DatePickerStyles.css */
+
+/* Style the date picker container */
+.custom-datepicker {
+    width: 100%;
+  }
+  
+  /* Style the date input field */
+  .custom-datepicker input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+  }
+  
+  /* Style the calendar dropdown */
+  .custom-calendar {
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style the table header */
+  .custom-calendar .react-datepicker__header {
+    background-color: #007bff; /* Customize the header background color */
+    color: white; /* Customize the header text color */
+  }
+  
+  /* Style the table header buttons */
+  .custom-calendar .react-datepicker__navigation {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* Style the table header button icons */
+  .custom-calendar .react-datepicker__navigation--next::after,
+  .custom-calendar .react-datepicker__navigation--previous::after {
+    font-size: 20px;
+    color: white;
+  }
+  
+  /* Style the table cells for weekdays */
+  .custom-calendar .react-datepicker__day-name {
+    color: #007bff; /* Customize the weekday text color */
+  }
+  
+  /* Style the selected date */
+  .custom-calendar .react-datepicker__day--selected {
+    background-color: #007bff; /* Customize the selected date background color */
+    color: white; /* Customize the selected date text color */
+  }
+  
+  /* Style the other dates */
+  .custom-calendar .react-datepicker__day--in-month {
+    color: black; /* Customize the other date text color */
+  }
+  
+  /* Style the today's date */
+  .custom-calendar .react-datepicker__day--today {
+    font-weight: bold;
+  }
+  
+  /* Add more custom styles as needed */
+  

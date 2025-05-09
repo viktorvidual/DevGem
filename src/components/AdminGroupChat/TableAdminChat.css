@@ -1,0 +1,16 @@
+.chat-section {
+    display: flex;
+    border: 1px solid #ccc;
+    height: 80vh;
+    overflow: hidden;
+  }
+  
+  .message-area {
+    height: 65vh;
+    overflow-y: auto;
+  }
+
+  .sidebar {
+    background-color:rgb(240, 240, 240) ;
+    height: 100%;
+  }

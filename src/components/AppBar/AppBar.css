@@ -1,0 +1,11 @@
+.notification-indicator-for-user {
+    position: absolute;
+    top: -5px;
+    right: 5px;
+    width: 10px;
+    height: 10px;
+    background-color: rgba(145, 142, 142, 0.763);
+    border-radius: 50%;
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+ 
